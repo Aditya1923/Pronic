@@ -1,0 +1,18 @@
+import java.util.*;
+public class pronic{
+public static void main(String args[]){
+Scanner sc=new Scanner(System.in);
+int i,a,b,p=0;
+System.out.println("Enter a number");
+a=sc.nextInt();
+for(i=1;i<=p;i++){
+p=i*(i+1);
+}
+if(p==a){
+System.out.println("Pronic number");
+break;
+}
+else
+continue;
+}
+}
